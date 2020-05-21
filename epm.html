@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/epm.css">
+    <title>Taller 3</title>
+</head>
+
+<body>
+    <header class="contenedor">
+        <h1>Asistencia de Pago por Emergencia Sanitaria</h1>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ibser.org%2Fwp-content%2Fuploads%2F2018%2F09%2F1280px-Logo_EPM.svg.png&f=1&nofb=1" alt="epm">
+    </header>
+
+    <main class="aplicacion contenedor">
+        <form class="formulario">
+            <legend>Ingrese su número de cedula y su estrato para consultar si cuenta con un apoyo</legend>
+
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nro. Cedula </label>
+                    <input type="number" id="cedula">
+                </div>
+
+                <div class="campo">
+                    <label for="tribuna">Estrato</label>
+                    <select class="form-control" id="tribuna">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                </div>
+
+            </div>
+
+            </div>
+            <!--Contenedor Campos-->
+            <div class="enviar">
+                <input type="submit" value="verificar" class="boton" id="btn2">
+            </div>
+        </form>
+    </main>
+
+    <div class="volver">
+        <a class="boton" href="index.html">Volver</a>
+    </div>
+
+
+    <script src="alivioEcon.js"></script>
+</body>
+
+</html>

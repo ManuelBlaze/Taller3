@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rappi.css">
+    <title>Taller 3</title>
+</head>
+
+<body>
+    <header class="contenedor">
+        <div class="hero">
+            <h1>¡Feliz Día de las Madres!</h1>
+            <h5>Disfruta de un descuento en tus pedidos por este día especial!</h5>
+        </div>
+        <img src="https://seeklogo.com/images/R/rappi-logo-63FD346993-seeklogo.com.png" alt="Rappi">
+    </header>
+
+    <main class="pedido contenedor">
+
+        <img src="https://i.ytimg.com/vi/H7uMpjzyaTU/maxresdefault.jpg" alt="torta">
+        <div class="descripcion">
+            <h2 class="centrar">Torta Chocolate</h2>
+            <legend>Torta Chocolate x 7 Porciones (Mediana)</legend>
+            <p class="precio">$30.000</p>
+
+            <h3>Agregar instrucciones adicionales</h3>
+            <div class="form-group campo">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe aquí"></textarea>
+            </div>
+            <legend><span>Nota:</span> En este campo no se aceptan modificaciones que generen valor adicional en la factura. Puedes chatear con tu Rappi si quieres cambios.</legend>
+            <div class="comprar">
+                <button class="boton" id="comprar">Comprar</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="volver">
+        <a class="boton" href="index.html">Volver</a>
+    </div>
+
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+    <script src="js/pedido.js"></script>
+</body>
+
+</html>

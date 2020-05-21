@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nacional.css">
+    <title>Taller 3</title>
+</head>
+
+<body>
+    <header class="contenedor">
+        <h1>ABONOS</h1>
+        <img src="https://seeklogo.com/images/C/Club_Atl__tico_Nacional-logo-B34D1C41B9-seeklogo.com.png" alt="nacional">
+    </header>
+
+    <main class="aplicacion contenedor">
+        <form class="formulario">
+            <legend>Diligencia la información para realizar la compra del abono</legend>
+
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nombre(s): </label>
+                    <input type="text" id="nombre">
+                </div>
+                <div class="campo">
+                    <label>Apellidos: </label>
+                    <input type="text" id="apellidos">
+                </div>
+                <div class="campo">
+                    <label>Teléfono:</label>
+                    <input type="tel" id="telefono">
+                </div>
+                <div class="campo">
+                    <label for="cantidad">Cantidad:</label>
+                    <input type="number" id="cantidad">
+                </div>
+                <div class="campo">
+                    <label for="tribuna">Tribuna</label>
+                    <select class="form-control" id="tribuna">
+                        <option>Sur-Norte</option>
+                        <option>Oriental</option>
+                        <option>Occidental</option>
+                    </select>
+                </div>
+
+            </div>
+
+            </div>
+            <!--Contenedor Campos-->
+            <div class="enviar">
+                <input type="submit" value="comprar" class="boton" id="btn2">
+            </div>
+        </form>
+    </main>
+
+    <div class="volver">
+        <a class="boton" href="index.html">Volver</a>
+    </div>
+
+
+    <script src="abonos.js"></script>
+</body>
+
+</html>

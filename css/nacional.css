@@ -1,0 +1,42 @@
+body {
+    background-image: url(https://blogs.elcolombiano.com/pulsoverde/wp-content/uploads/2019/04/nacional-cumpleaños-manuel-saldarriaga.jpg);
+}
+
+.contenedor {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+header h1 {
+    color: rgb(100, 121, 99);
+    font-size: 6rem;
+}
+
+header img {
+    padding: 2rem;
+}
+
+@media (min-width: 768px) {
+    header {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+    }
+}
+
+form {
+    background-color: rgb(100, 121, 99);
+}
+
+legend {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.boton {
+    background-color: rgb(69, 155, 69);
+    color: white;
+}
+
+.boton:hover {
+    background-color: darkgreen;
+}
