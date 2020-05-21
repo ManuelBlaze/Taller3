@@ -82,6 +82,7 @@ $("#comprar").click(function(evt) {
                     document.getElementById("apellidos").value = ""
                     document.getElementById("telefono").value = ""
                     document.getElementById("cantidad").value = ""
+                    document.getElementById("tribuna").value = "Sur-Norte"
                 }
             })
         }
