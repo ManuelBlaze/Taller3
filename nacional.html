@@ -30,14 +30,14 @@
                 </div>
                 <div class="campo">
                     <label>Teléfono:</label>
-                    <input type="tel" id="telefono">
+                    <input type="tel" id="telefono" placeholder="SIN SIGNOS">
                 </div>
                 <div class="campo">
                     <label for="cantidad">Cantidad:</label>
                     <input type="number" id="cantidad">
                 </div>
                 <div class="campo">
-                    <label for="tribuna">Tribuna</label>
+                    <label for="tribuna">Tribuna:</label>
                     <select class="form-control" id="tribuna">
                         <option>Sur-Norte</option>
                         <option>Oriental</option>
@@ -50,7 +50,7 @@
             </div>
             <!--Contenedor Campos-->
             <div class="enviar">
-                <input type="submit" value="comprar" class="boton" id="btn2">
+                <button class="boton" id="comprar">Comprar</button>
             </div>
         </form>
     </main>
@@ -59,8 +59,10 @@
         <a class="boton" href="index.html">Volver</a>
     </div>
 
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
-    <script src="abonos.js"></script>
+    <script src="js/abonos.js"></script>
 </body>
 
 </html>

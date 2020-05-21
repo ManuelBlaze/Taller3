@@ -25,9 +25,10 @@
                     <input type="number" id="cedula">
                 </div>
 
-                <div class="campo">
-                    <label for="tribuna">Estrato</label>
-                    <select class="form-control" id="tribuna">
+                <div class="campo estrato">
+                    <label for="tribuna">Estrato: </label>
+                    <select class="form-control" id="estrato">
+                        <option disabled selected>Seleccionar</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -42,7 +43,7 @@
             </div>
             <!--Contenedor Campos-->
             <div class="enviar">
-                <input type="submit" value="verificar" class="boton" id="btn2">
+                <button class="boton" id="consultar">Consultar</button>
             </div>
         </form>
     </main>
@@ -51,8 +52,10 @@
         <a class="boton" href="index.html">Volver</a>
     </div>
 
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
-    <script src="alivioEcon.js"></script>
+    <script src="js/alivioEcon.js"></script>
 </body>
 
 </html>

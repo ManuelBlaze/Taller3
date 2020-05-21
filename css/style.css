@@ -58,9 +58,14 @@ header span {
 
 @media (min-width: 768px) {
     .aplicaciones {
-        margin-top: 5rem;
+        margin-top: 3rem;
         grid-template-rows: repeat(1, 1fr);
         grid-template-columns: repeat(3, 1fr);
+    }
+    .contenedor {
+        margin-top: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
